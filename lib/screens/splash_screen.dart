@@ -39,7 +39,7 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset('images/splash_pic.jpg', fit: BoxFit.cover),
+            Image.asset('images/splash_pic.png', fit: BoxFit.cover),
             const SizedBox(height: 20),
             const Text(
               'TOP HEADLINES',

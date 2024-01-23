@@ -62,8 +62,8 @@ class _CategoriesState extends State<Categories> {
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(18),
                         color: categoryName == categories[index]
-                            ? Colors.blue
-                            : Colors.grey[500],
+                            ? Colors.blueGrey
+                            : Colors.grey[400],
                       ),
                       child: Center(
                         child: Text(
